@@ -1,17 +1,3 @@
-// React Arrow Function Component
-// rafc
-
-// import React from 'react'
-
-// export const Content = () => {
-//   return (
-//     <div>Content</div>
-//   )
-// }
-
-
-//rafce 
-
 import React from 'react'
 import styled from 'styled-components'
 
