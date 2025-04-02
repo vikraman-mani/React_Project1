@@ -18,3 +18,8 @@ ProductDetails.proptype = {
     name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired
 }
+
+ProductDetails.defaultProps = {
+    name: "No Name",
+    price: 0
+}
