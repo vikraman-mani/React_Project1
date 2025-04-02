@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Counter from './Counter'
 
 let headingStyle = {
     backgroundColor:"red",
@@ -30,6 +31,7 @@ const Content = () => {
         <h1 /* style= { {backgroundColor:"red", color:"white"} }*/ style = {headingStyle}> Main Content</h1>
         <Button onClick={ handleClick } >Click Me</Button>
         <NewButton onClick={ (e) => { handleClick2(e) } }>Click Me 2</NewButton>
+        <Counter />
     </main>
   )
 }
