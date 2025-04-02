@@ -5,13 +5,12 @@ import Content from './components/Content'
 
 function App() {
 
-  let user = "vikraman"
 
   return (
     <div className='App'>
-      <Header user = {user} />
+      <Header />
       <Content />
-      <Footer user = {user} />
+      <Footer />
     </div>
   )
 }

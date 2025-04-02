@@ -22,3 +22,9 @@ npm install styled-components
 
 Just Github CSS (https://github.com/gitdagray/react_styling_components/blob/main/src/index.css)
 ![alt text](image-2.png)
+
+Context API:
+
+1. Create Context
+2. Create Provider
+3. Create Consumer
