@@ -11,9 +11,15 @@ const Counter = () => {
       setCount((prevCount) => prevCount + 1);
     }
 
+    function returnSample () {
+        console.log("returnSample called")
+        return 100;
+    }
+    let [sample, setSample] = useState( () => { return returnSample() } );  // pass function in useState
+
   return (
     <div>
-        <h1> Counter App - {count} </h1>
+        <h1> Counter App - {count} - {sample} </h1>
         <button onClick={ HandleIncrease}>    Increase  </button>
     </div>
   )
