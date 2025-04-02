@@ -30,13 +30,20 @@ let Button = styled.button`
 let NewButton = styled(Button)`
     background-color: blue;
 `
+function handleClick() {
+    alert("Button Clicked")
+}
+
+function handleClick2(user) {
+    alert("Button 2 Clicked " + user)
+}
 
 const Content = () => {
   return (
     <main> 
         <h1 /* style= { {backgroundColor:"red", color:"white"} }*/ style = {headingStyle}> Main Content</h1>
-        <Button>Click Me</Button>
-        <NewButton>Click Me 2</NewButton>
+        <Button onClick={ handleClick } >Click Me</Button>
+        <NewButton onClick={ () => { handleClick2("Vikraman") } }>Click Me 2</NewButton>
     </main>
   )
 }
