@@ -1,15 +1,23 @@
 // class component
 
 import React from 'react';
+import { UserContext } from '../App';
 
 class Footer extends React.Component {
     render() {
-
-        console.log(this.props);
         
         return (
             <footer>
                 <h1>Footer</h1>
+                <UserContext.Consumer>
+                    {
+                        ( {user} ) => {
+                             return (
+                                <h3>{user.name}</h3>
+                             )
+                        }
+                    }
+                </UserContext.Consumer>
             </footer>
         )
     }
