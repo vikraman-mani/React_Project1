@@ -8,7 +8,7 @@ function App() {
   let user = "vikraman"
 
   return (
-    <div>
+    <div className='App'>
       <Header user = {user} />
       <Content />
       <Footer user = {user} />

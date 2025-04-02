@@ -13,3 +13,12 @@ If you are developing a production application, we recommend using TypeScript an
 
 Notes: Add chrome extensions (React Developer Tools)
 ![alt text](image.png)
+
+Notes 2: Styled-component CSS libraries
+(https://styled-components.com/) || (https://styled-components.com/docs/basics#installation)
+npm install styled-components
+
+![alt text](image-1.png)
+
+Just Github CSS (https://github.com/gitdagray/react_styling_components/blob/main/src/index.css)
+![alt text](image-2.png)
