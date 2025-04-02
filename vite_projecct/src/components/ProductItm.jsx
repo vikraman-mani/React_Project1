@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductDetails from './ProductDetails'
 
 const ProductItm = (props) => {
 
@@ -7,10 +8,10 @@ const ProductItm = (props) => {
   return (
     <div>
        <h5> Display Product Items</h5>
-       <section>
-        <h1> {Product.name} </h1>
-        <h2> {Product.price} </h2>
-       </section>
+       <ProductDetails 
+          name = {Product.name} 
+          price = {Product.price}
+       />
     </div>
   )
 }
